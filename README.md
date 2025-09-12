@@ -13,22 +13,22 @@ Install the SDK by adding the following dependency in your project's pom.xml fil
 <dependency>
   <groupId>io.github.zahran444</groupId>
   <artifactId>sonia-barrera-sdk</artifactId>
-  <version>0.0.1</version>
+  <version>3.0.0</version>
 </dependency>
 ```
 
 You can also view the package at:
-https://central.sonatype.com/artifact/io.github.zahran444/sonia-barrera-sdk/0.0.1
+https://central.sonatype.com/artifact/io.github.zahran444/sonia-barrera-sdk/3.0.0
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/0.0.1/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/3.0.0/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
 | Parameter | Type | Description |
 |  --- | --- | --- |
-| httpClientConfig | [`Consumer<HttpClientConfiguration.Builder>`](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/0.0.1/doc/http-client-configuration-builder.md) | Set up Http Client Configuration instance. |
+| httpClientConfig | [`Consumer<HttpClientConfiguration.Builder>`](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/3.0.0/doc/http-client-configuration-builder.md) | Set up Http Client Configuration instance. |
 
 The API client can be initialized as follows:
 
@@ -50,31 +50,31 @@ public class Program {
 
 ## List of APIs
 
-* [Simple Calculator](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/0.0.1/doc/controllers/simple-calculator.md)
+* [Simple Calculator](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/3.0.0/doc/controllers/simple-calculator.md)
 
 ## SDK Infrastructure
 
 ### Configuration
 
-* [Configuration Interface](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/0.0.1/doc/configuration-interface.md)
-* [HttpClientConfiguration](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/0.0.1/doc/http-client-configuration.md)
-* [HttpClientConfiguration.Builder](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/0.0.1/doc/http-client-configuration-builder.md)
-* [HttpProxyConfiguration](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/0.0.1/doc/http-proxy-configuration.md)
-* [HttpProxyConfiguration.Builder](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/0.0.1/doc/http-proxy-configuration-builder.md)
+* [Configuration Interface](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/3.0.0/doc/configuration-interface.md)
+* [HttpClientConfiguration](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/3.0.0/doc/http-client-configuration.md)
+* [HttpClientConfiguration.Builder](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/3.0.0/doc/http-client-configuration-builder.md)
+* [HttpProxyConfiguration](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/3.0.0/doc/http-proxy-configuration.md)
+* [HttpProxyConfiguration.Builder](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/3.0.0/doc/http-proxy-configuration-builder.md)
 
 ### HTTP
 
-* [Headers](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/0.0.1/doc/headers.md)
-* [HttpCallback Interface](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/0.0.1/doc/http-callback-interface.md)
-* [HttpContext](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/0.0.1/doc/http-context.md)
-* [HttpBodyRequest](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/0.0.1/doc/http-body-request.md)
-* [HttpRequest](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/0.0.1/doc/http-request.md)
-* [HttpResponse](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/0.0.1/doc/http-response.md)
-* [HttpStringResponse](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/0.0.1/doc/http-string-response.md)
+* [Headers](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/3.0.0/doc/headers.md)
+* [HttpCallback Interface](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/3.0.0/doc/http-callback-interface.md)
+* [HttpContext](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/3.0.0/doc/http-context.md)
+* [HttpBodyRequest](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/3.0.0/doc/http-body-request.md)
+* [HttpRequest](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/3.0.0/doc/http-request.md)
+* [HttpResponse](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/3.0.0/doc/http-response.md)
+* [HttpStringResponse](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/3.0.0/doc/http-string-response.md)
 
 ### Utilities
 
-* [ApiException](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/0.0.1/doc/api-exception.md)
-* [ApiHelper](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/0.0.1/doc/api-helper.md)
-* [FileWrapper](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/0.0.1/doc/file-wrapper.md)
+* [ApiException](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/3.0.0/doc/api-exception.md)
+* [ApiHelper](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/3.0.0/doc/api-helper.md)
+* [FileWrapper](https://www.github.com/ZahraN444/sonia-barrera-java-sdk/tree/3.0.0/doc/file-wrapper.md)
 
