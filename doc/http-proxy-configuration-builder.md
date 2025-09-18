@@ -24,10 +24,10 @@ To configure the SDK to use a proxy server, initialize the proxy configuration d
 ## Usage Example
 
 ```java
-import io.apimatic.examples.APIMATICCalculatorZipClient;
+import io.apimatic.examples.APIMATICCalculatorClient;
 import io.apimatic.examples.http.client.HttpProxyConfiguration;
 
-APIMATICCalculatorZipClient client = new APIMATICCalculatorZipClient.Builder()
+APIMATICCalculatorClient client = new APIMATICCalculatorClient.Builder()
   .httpClientConfig(configBuilder -> configBuilder
       .proxyConfig(new HttpProxyConfiguration.Builder("http://localhost",
           8080).auth("username", "password")))
